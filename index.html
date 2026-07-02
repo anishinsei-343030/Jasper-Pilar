@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Angelyn!</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    color:white;
+    text-align:center;
+    overflow-x:hidden;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h1{
+    font-size:3em;
+    animation:fadeIn 2s ease-in-out;
+}
+
+.typewriter{
+    overflow:hidden;
+    white-space:nowrap;
+    border-right:3px solid white;
+    width:0;
+    margin:auto;
+    animation:typing 5s steps(60,end) forwards,
+              blink .8s infinite;
+    font-size:1.2em;
+}
+
+.card{
+    background:rgba(255,255,255,.15);
+    padding:20px;
+    margin-top:25px;
+    border-radius:15px;
+    backdrop-filter:blur(10px);
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:#ff4081;
+    font-size:18px;
+    cursor:pointer;
+    margin-top:25px;
+}
+
+.hidden{
+    display:none;
+}
+
+@keyframes typing{
+from{width:0}
+to{width:100%}
+}
+
+@keyframes blink{
+50%{border-color:transparent;}
+}
+
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎉 Happy Birthday 🎂</h1>
+
+<h2>ANGELYN M. TOLEDO ❤️</h2>
+
+<p class="typewriter">
+Today is all about celebrating the wonderful person you are...
+</p>
+
+<button onclick="showMessage()">
+🎁 Open Your Birthday Surprise
+</button>
+
+<div id="message" class="hidden card">
+
+<h2>💖 Dear Angelyn,</h2>
+
+<p>
+Happy Birthday! 🎂🎉
+
+May this special day remind you how valuable,
+strong, and wonderfully created you are.
+
+May your heart always be filled with hope,
+your mind with wisdom,
+and your life with endless happiness.
+
+Always believe in yourself because
+your future is brighter than you imagine.
+Never stop dreaming,
+never stop growing,
+and never stop becoming the amazing woman
+God created you to be.
+</p>
+
+<hr>
+
+<h3>✨ Inspirational Quote</h3>
+
+<p>
+"Success is not measured by how fast you reach your dreams,
+but by the courage to keep moving forward despite every challenge."
+</p>
+
+<h3>🌸 Birthday Wishes</h3>
+
+<p>
+🎈 Good health<br>
+🎈 Endless happiness<br>
+🎈 Peace of mind<br>
+🎈 Financial blessings<br>
+🎈 Genuine friendships<br>
+🎈 Success in everything you do<br>
+🎈 God's guidance every day
+</p>
+
+<h3>🎯 Goals in Life</h3>
+
+<p>
+✔ Continue believing in yourself.<br>
+✔ Never stop learning.<br>
+✔ Stay humble and kind.<br>
+✔ Chase your dreams with courage.<br>
+✔ Trust God's perfect timing.<br>
+✔ Inspire others through your kindness.
+</p>
+
+<h3>📖 Bible Verse</h3>
+
+<p>
+<strong>Jeremiah 29:11</strong><br><br>
+
+"For I know the plans I have for you," declares the Lord,
+"plans to prosper you and not to harm you,
+plans to give you hope and a future."
+</p>
+
+<h2>❤️ Happy Birthday, Angelyn M. Toledo! ❤️</h2>
+
+<p>
+May this year become one of the happiest chapters of your life.
+Keep smiling, keep believing,
+and always remember that God has wonderful plans ahead for you.
+
+Happy Birthday! 🎉🎂
+</p>
+
+</div>
+
+</div>
+
+<script>
+function showMessage(){
+document.getElementById("message").classList.remove("hidden");
+window.scrollTo({
+top:document.body.scrollHeight,
+behavior:"smooth"
+});
+}
+</script>
+  
+</body>
+</html>
+http://localhost:7700/index.html
